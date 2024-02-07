@@ -1,0 +1,100 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #444;
+}
+
+/* Center Div */
+.stopwatch{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #fff;
+    width: 40%;
+    height: 40%;
+    box-shadow: 0px 0px 25px 8px rgb(0 0 0);
+    border-radius: 20px;
+}
+
+/* .stopwatch{
+    display: grid;
+    place-items:center;
+} */
+
+/* .stopwatch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.stopwatch div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stopwatch h1{
+    color: #fff;
+    text-align: center;
+    height: 35%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.stopwatch h2{
+    height: 15%;
+    margin-top: 10px;
+    font-size: 35px;
+    font-weight: 200;
+    text-align: center;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.ctrls{
+    height: 40%;
+    width: 100%;
+    text-align: center;
+}
+.ctrls i{
+    /* color: #fff; */
+    font-size: 40px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: 1px solid #fff; */
+    border-radius: 50%;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#stop{
+    height: 80px;
+    width: 80px;
+    background: red;
+}
+#play{
+    color: #fff;
+    background: orange;
+    font-size: 50px;
+    padding-left: 10px;
+}
+#replay{
+    height: 80px;
+    width: 80px;
+    background: blue;
+}
+
+
+
+
